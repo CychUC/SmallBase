@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="user\main.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dllmain.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\helpers.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\il2cpp-init.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\pch-il2cpp.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="user\renderer\renderer.cpp">
+      <Filter>user\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="user\hooking\hooking.cpp">
+      <Filter>user\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="user\hooking\hooks\present_hook.cpp">
+      <Filter>user\hooking\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="user\hooking\hooks\wndproc_hook.cpp">
+      <Filter>user\hooking\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_impl_dx11.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_impl_win32.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_tables.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_widgets.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_demo.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\include\imgui\imgui_draw.cpp">
+      <Filter>user\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="user\menu\menu.cpp">
+      <Filter>user\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user\main.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-metadata-version.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\helpers.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-appdata.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-init.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\pch-il2cpp.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="user\common.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="user\logger\logger.h">
+      <Filter>user\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="user\renderer\renderer.h">
+      <Filter>user\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="user\hooking\hooking.h">
+      <Filter>user\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imconfig.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imgui.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imgui_impl_dx11.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imgui_impl_win32.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imgui_internal.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imstb_rectpack.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imstb_textedit.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\include\imgui\imstb_truetype.h">
+      <Filter>user\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="user\menu\menu.h">
+      <Filter>user\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="appdata">
+      <UniqueIdentifier>{d0f03ff2-a935-4590-b4c4-1744a572eeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{1e4a7cb5-7e7b-4f50-96d3-119ff1cf0ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{1dfe0c06-c219-4681-b8ec-fc08cc9174a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\logger">
+      <UniqueIdentifier>{c9205a13-9343-401b-8b06-7bf217d4fc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\renderer">
+      <UniqueIdentifier>{c1902900-1681-4783-8078-6e0d0ffd9aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\hooking">
+      <UniqueIdentifier>{ddebd5f2-8a7d-4e06-ad39-c1239dbfb8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\hooking\hooks">
+      <UniqueIdentifier>{ebfa081a-28fb-4f91-baed-fbdce953da3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\imgui">
+      <UniqueIdentifier>{e9ed3c35-1879-4979-bdb2-0b57a0f552d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user\menu">
+      <UniqueIdentifier>{9392a5cf-be4b-48b6-99fe-d0f577f55375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
